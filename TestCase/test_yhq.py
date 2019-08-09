@@ -16,6 +16,7 @@ for i in range(len(excel_list)):
 
 
 @allure.feature("优惠券模块")
+
 class Test_yhq:
 
     @allure.severity("critical")  # 优先级，包含blocker, critical, normal, minor, trivial 几个不同的等级

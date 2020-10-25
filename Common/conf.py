@@ -1,4 +1,4 @@
 
-url = 'http://qa.yansl.com:8080'
+url = 'http://mall.yansl.com:8080'
 
 

@@ -8,7 +8,7 @@ def head():
     request = Request.Request()
 
     assertions = Assert.Assertions()
-    login_resp = request.post_request(url='http://qa.yansl.com:8080/admin/login',
+    login_resp = request.post_request(url='http://mall.yansl.com:8080/admin/login',
                                       json={"username": "admin", "password": "123456"})
     assertions.assert_code(login_resp.status_code, 200)
     login_resp_json = login_resp.json()
